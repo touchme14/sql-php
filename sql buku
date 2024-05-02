@@ -1,0 +1,11 @@
+CREATE DATABASE perpustakaan;
+
+CREATE TABLE buku (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(200) NOT NULL,
+    penulis VARCHAR(200) NOT NULL,
+    penerbit VARCHAR(200) NOT NULL,
+    tgl_terbit DATE,
+    sinopsis TEXT
+);
+// code yang saya gu8nakan dalam xaamp mysql
